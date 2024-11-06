@@ -1,6 +1,5 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('./index');
-const { types } = require('pg');
 
 const Task = sequelize.define('Task', {
     title: DataTypes.STRING,
